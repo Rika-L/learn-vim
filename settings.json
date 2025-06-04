@@ -1,0 +1,68 @@
+{
+  "vim.easymotion": true,
+  "vim.leader": "<Space>",
+  "vim.sneak": true,
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["H"],
+      "after": ["^"]
+    },
+    {
+      "before": ["L"],
+      "after": ["g", "_"]
+    },
+    {
+      "before": ["J"],
+      "after": ["5", "j"]
+    },
+    {
+      "before": ["K"],
+      "after": ["5", "k"]
+    },
+    {
+      "before": ["f"],
+      "after": ["s"]
+    },
+    {
+      "before": ["F"],
+      "after": ["S"]
+    },
+    {
+      "before": ["s"],
+      "after" : ["c", "l"]
+    },
+    {
+      "before": ["S"],
+      "after" : ["^", "C"]
+    }
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": ["f"],
+      "after": ["s"]
+    }
+  ],
+  "vim.operatorPendingModeKeyBindingsNonRecursive": [
+    {
+      "before": ["f"],
+      "after": ["z"]
+    },
+    {
+      "before": ["F"],
+      "after": ["Z"]
+    }
+  ],
+  "vim.operatorPendingModeKeyBindings": [
+    {
+      "before": ["H"],
+      "after": ["^"]
+    },
+    {
+      "before": ["L"],
+      "after": ["g", "_"]
+    }
+  ],
+  "vim.handleKeys": {
+    "<C-c>": false
+  }
+}
